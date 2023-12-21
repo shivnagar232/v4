@@ -1,4 +1,4 @@
-_#Github.com/mrinvisible7
+#Github.com/mrinvisible7
 
 import os
 from .. import bot as Invix
