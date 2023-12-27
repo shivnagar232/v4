@@ -17,10 +17,10 @@ logging.getLogger("telethon").setLevel(logging.WARNING)
 # variables
 API_ID = "26075120" #config("API_ID", default=None, cast=int)
 API_HASH = "1fda88a5d1de46058a4791c78bce198e" #config("API_HASH", default=None)
-BOT_TOKEN = "6772931491:AAE57eXG48TT0NfqQhc8YYKFn25gdjq8Oxk" #config("BOT_TOKEN", default=None)
-SESSION = "BQGTAMIAg5hPlzPDSp_tYi8DengoT0ayMNkvGgpm4Bp1P0Btu3-NiyWJj7fpSwCnaRPJDAhsC2cDoD_Gwbf5twbV0X8KYlnMTbcx4IxhPCHYQw9CW9CrmDAt2jns-xgMCtVg0FGzNpBna_y9RL7sscdPqaCnWem5rKh8ygqKQ91iin1fdw35CnKFwSB0mqB5-SPdurILkGuPrajy2TFHD2usp29klJAWZKn7YmKFMjHR7_ml_FzkGLvGefP87iOrOTf0mzu01pK5U6yE-lPsUwLqgD2PgDoUkm-M3lWst2Mb6hK5RdURg1EF1A80I3U1IVEYLtqEerqZc-wPtO6AUR6UHhDCkAAAAAFpF4RKAA" #config("SESSION", default=None)
+BOT_TOKEN = "6349487980:AAE_PvThCH5WHp1y7y7bJThQdzmAG-BNs8g" #config("BOT_TOKEN", default=None)
+SESSION = "BQGTAMIAQmZfN-UwPli-poSBAJ0YEBzM-ziBw0YbP0oC3GaL6YIC-kcCEY9S3KH_mwnRLRCqNelP8LNM4uKBdjj3tP13yoo5JCzS9H63sWH8jfG0OnqtJRxBkhFCDLnrm64jh13F9JT9NL0Bi5-DQJUaFl2BuO1LXhUGVVr_ZtZddwQ-qj7mtCzp0OEr29D7NF-RD1AOZB8N37brRxiZFh5X4HU4eHM_1GKhNmL1qS5E7A4dUpgrJvyZuoxKV8eEnDdwj6Txs-Illn_Sz8W8iXewCt-xSZI_I5fv6KhB7v6MWTvlk7OSjlGw5F4uH7_Gsk3Y9qs73pQUhRVNqQjOATVMm97HMwAAAABCYOXEAA" #config("SESSION", default=None)
 FORCESUB = "dev_gagan" #config("FORCESUB", default=None)
-AUTH = "6518701261" #config("AUTH", default=None))
+AUTH = "1113646532" #config("AUTH", default=None))
 SUDO_USERS = []
 if len(AUTH) != 0:
     SUDO_USERS = {int(AUTH.strip()) for AUTH in AUTH.split()}
